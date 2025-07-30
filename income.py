@@ -14,3 +14,5 @@ class IncomeRecord:
         capital_count = sum(1 for c in line if c.isupper())
         numeric_count = sum(1 for c in line if c.isdigit() or c == '.')
         return capital_count + numeric_count
+
+

@@ -1,3 +1,6 @@
+import code
+import sys
+
 from income import IncomeRecord
 from file_exporter import export_to_csv
 from utils import validate_code
